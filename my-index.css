@@ -6,8 +6,10 @@
 
 #header-one {
     font-size:30px;
-    color: blue;
+    color: red;
+    text-align:center;
 }
+
 
 #header-two {
     font-size:35px;
