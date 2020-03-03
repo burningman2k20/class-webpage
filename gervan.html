@@ -6,29 +6,49 @@
       body {
         font-family: 'Merriweather',sans-serif;
       }
+      h1, h2 {
+        text-align: center;
+        color: darkblue;
+      }
+      .underline {
+        text-decoration: underline;
+      }
       .top-container {
         background-color: #e4f9f5;
+        color: black;
         margin: 0;
         text-align: center;
         border-style: double;
       }
+        .circle {
+          border-radius: 100%;
+          border-style: dotted;
+          margin: 0 auto 30px auto;
+          width: 20%;
+        }
       .mid-container {
         font-family: cursive;
       }
+        .tables {
+          border-style: groove;
+          background-color: lightyellow;
+        }
+        ol, ul{
+          display: inline-block;
+        }
       .bottom-container {
         background-color: #e4f9f5;
         padding: 25px;
         text-align: center;
         border-style: groove;
       }
-      .underline {
-        text-decoration: underline;
-      }
-      .circle {
-        border-radius: 100%;
-        width: 20%;
-        margin: 0 auto 30px auto;
-        border-style: dotted;
+        .button1 {
+            background-color:cyan;
+            color: darkblue;
+            padding: 10px 10px;
+            text-align: center;
+            font-size: 16px;
+        }
     </style>
   </head>
   <body>
@@ -41,7 +61,7 @@
     <div class="mid-container">
       <h2 class="underline"><b>What I've learned:</b></h2>
         <h3>Tables</h3>
-      <table>
+      <table class="tables">
         <tr>
           <th>Module</th>
           <th>Ranking</th>
@@ -73,13 +93,13 @@
           <li>third</li>
         </ul>
         <hr>
-      <h3>and so much more to come ..</h3>
+      <h3>and so much more to come ...</h3>
       <hr>
     </div>
 
     <div class="bottom-container">
-      <form action="/aos.html">
-          <input type="submit" value="Go to Aos's Page" />
+      <form action="aus.html">
+          <input class="button1" type="submit" value="Go to Aus's Page"/>
       </form>
     </div>
   </body>
